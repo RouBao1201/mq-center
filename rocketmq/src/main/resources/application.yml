@@ -1,0 +1,10 @@
+server:
+  port: 19099
+  servlet:
+    context-path: /roubao-rocketmq
+rocketmq:
+  name-server: 127.0.0.1:9876
+  producer:
+    group: my-producer-group-01
+swagger:
+  title: RocketMQ测试服务
